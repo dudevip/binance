@@ -47,6 +47,9 @@ $ node buy.js --pair ETHBTC --price 0.00001 --quantity 10
 
 This function checks the current bid price for a certain crypto pair and when the price goes bellow your stop loss, it triggers a market sell of the quantity you set for that coin.
 
+*IMPORTANT* this code must be running constantly to work. Since Binance does not have stop loss by default, this code is constantly checking the price and triggers a MARKET SELL when the stop loss is triggered.
+
+
 ```sh
 $ node stoploss.js --pair <pair> --quantity <quantityToSell> --stopLossPrice <stopLoss>
 
