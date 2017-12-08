@@ -1,0 +1,12 @@
+{
+  "name": "binancestoploss",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Selaromi",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^4.0.7",
+    "node-binance-api": "^0.2.7"
+  }
+}
